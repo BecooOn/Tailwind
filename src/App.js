@@ -3,7 +3,7 @@ function App() {
   const [show, setShow] = useState(false);
   return (
     <div>
-      <header className="flex flex-col items-center lg:flex-row gap-2 lg:justify-between border border-4 border-red-500 p-2 mt-2 relative">
+      <header className="flex flex-col items-center lg:flex-row gap-2 lg:justify-between p-2 mt-2 relative">
         <div className="p-2">
           <a href="#clarusway">
             <img
@@ -62,37 +62,37 @@ function App() {
       </header>
       <section>
         <div className="flex flex-wrap justify-evenly items-center mt-10">
-          <div className="w-[481px] flex flex-col lg:w-80">
+          <div className="w-[481px] flex flex-col">
             <div>
-              <h1 className="text-gray-900 text-[58px] px-4 leading-[66px] font-extrabold">A special credit card made for Developers.</h1>
-              <p>
+              <h1 className="text-gray-900 text-[51px] p-2 leading-[61px] font-extrabold text-center">A special credit card made for Developers.</h1>
+              <p className="px-2 my-4 font-Inter-sans text-[16px] leading-[26px] text-gray-600 lg:text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vehicula massa in enim luctus. Rutrum arcu.
               </p>
               <form action="#" method="POST">
-                <div className="flex justify-between border p-2 rounded-xl mb-5 max-md:flex-col max-md:border-0  max-md:bg-gradient-to-r from-blue-200 via-green-100 to-purple-100">
+                <div className="flex flex-row justify-center items-center border border-5 p-2 rounded-xl">
                   <input
                     type="email"
                     placeholder="Enter email address"
                     required
-                    className="w-10/12 h-12 px-4 border border-gray-300 rounded-lg"
+                    className="w-10/12 h-12 px-4 border-none rounded-lg outline-none"
                   />
                   <div>
-                    <button type="submit">Get Free Card</button>
+                    <button type="submit" className="p-1 bg-gray-900 text-white rounded-xl lg:w-40 ">Get Free Card</button>
                   </div>
                 </div>
               </form>
             </div>
-            <div className="flex justify-between gap-4">
-              <div className="flex">
-                <p>2943</p>
-                <p>
+            <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center gap-3">
+                <p className="font-plus-jakarta-sans font-medium text-[42px] leading-[62px] max-md:text-[28px] p-2">2943</p>
+                <p className="font-plus-jakarta-sans text-[13px] leading-[20px]">
                   Cards
                   <br />
                   Delivered
                 </p>
               </div>
-              <div>
+              <div className=" max-md:invisible">
                 <svg
                   width={16}
                   height={39}
@@ -108,9 +108,9 @@ function App() {
                   <line x1="0.72265" y1="38.584" x2="15.7226" y2="28.584" />
                 </svg>
               </div>
-              <div className="flex">
-                <p>$1M+</p>
-                <p>
+              <div className="flex justify-between items-center gap-3 p-2">
+                <p className="font-plus-jakarta-sans font-medium text-[42px] leading-[62px] max-md:text-[28px] ">$1M+</p>
+                <p className="font-plus-jakarta-sans text-[13px] leading-[20px]">
                   Transaction
                   <br />
                   Completed
@@ -118,10 +118,15 @@ function App() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="flex justify-center w-[554px] ">
             <img
               src="https://d33wubrfki0l68.cloudfront.net/d6f1462500f7670e0db6b76b35054a081679a5a0/0ce15/images/hero/5.1/illustration.png"
+              alt="images" width={400} className="hidden md:block"
+            />
+            <img
+              src="./image.png"
               alt="images" width={400}
+              className="block md:hidden"
             />
           </div>
         </div>
