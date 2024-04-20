@@ -13,7 +13,7 @@ function App() {
           </a>
         </div>
         <div
-          className={`div-a flex flex-col py-2 lg:flex-row lg:justify-between gap-[48px] w-10/12 ${
+          className={`div-a flex flex-col py-2 lg:flex-row lg:justify-between gap-[18px] w-10/12 ${
             show ? "flex" : "hidden"
           } lg:flex`}
         >
@@ -23,7 +23,7 @@ function App() {
             <a href="#fees"> Fees </a>
             <a href="#About"> About Rareblocks </a>
           </div>
-          <div className="div-signIn flex flex-col lg:flex-row gap-4 justify-center items-center">
+          <div className="div-signIn flex flex-col lg:flex-row gap-6 justify-center items-center">
             <span>
               <a href="#login"> Sign in </a>
             </span>
