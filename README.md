@@ -1,3 +1,17 @@
-# Figma Link
+## React with tailwind
+Bu proje, React kullanarak geliştirilen bir projedir. 
+- https://tailwind-wind.netlify.app/
+## 🚀 Başlarken
+Projeyi yerel ortamınıza klonlayarak başlayabilirsiniz.
+- Proje klasörüne gidin ve bağımlılıkları yükleyin:
+```yarn install```
 
-- https://www.figma.com/file/NbFHVfD3Rfh0ocEsf5CLfl/Rareblocks?type=design&node-id=0%3A1&mode=dev&t=sg9iNJmkB6eNcyF6-1
+- Projeyi başlatın:
+```yarn start```
+
+## 🛠️ Kullanılan Teknolojiler
+- React: Kullanıcı arayüzü ve bileşen tabanlı geliştirme için.
+- Tailwind: Hızlı ve duyarlı tasarımlar için UI bileşenleri.
+
+## 👥 Katkıda Bulunmak için;
+Proje deposunu forklayın. Yeni özellikler ekleyin veya hataları düzeltin. Değişikliklerinizi bir pull talebi olarak gönderin.
